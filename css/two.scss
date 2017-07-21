@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header img {
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+
+.xiao a {
+    text-decoration: none;
+    color: white;
+}
+.xiao a:hover {
+    color: red;
+}
+.xiao {
+    font-size: 11px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.xiao>div {
+    line-height: 40px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.xiao ul {
+    float: left;
+}
+.xiao>div:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.xiao>div>ul>li {
+    float: left;
+}
+.xiao>div>ul>li:not(li:nth-of-type(1)) {
+    padding-left: 18px;
+}
+.xiao ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.xiao ul:nth-of-type(2) {
+    padding-left: 300px;
+}
+
+
+//.two>div {
+//  width: 1200px;
+//  margin: 0 auto;
+//}
+//.two>div>ul {
+//  display: flex;
+//  justify-content: space-between;
+//}
+//.two>div>ul>li {
+//  float: left;
+//}
+//.two>div>ul:after {
+//  display: block;
+//  clear: both;
+//  content: "" ;
+//}
+//.two>div>ul>li>ul>li {
+//  float: left;
+//  padding-left: 10px;
+//}
+//.two>div>ul>li>ul:after {
+//  display: block;
+//  clear: both;
+//  content: "" ;
+//}
+//
+//.two>div>ul>li:nth-of-type(4) {
+//  padding: 10px ;
+//  border: 1px solid red;
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

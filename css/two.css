@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.xiao a {
+  text-decoration: none;
+  color: white;
+}
+
+.xiao a:hover {
+  color: red;
+}
+
+.xiao {
+  font-size: 11px;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+
+.xiao > div {
+  line-height: 40px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.xiao ul {
+  float: left;
+}
+
+.xiao > div:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.xiao > div > ul > li {
+  float: left;
+}
+
+.xiao > div > ul > li:not(li:nth-of-type(1)) {
+  padding-left: 18px;
+}
+
+.xiao ul:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.xiao ul:nth-of-type(2) {
+  padding-left: 300px;
+}
+
+/*# sourceMappingURL=two.css.map */

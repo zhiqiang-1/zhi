@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header img {
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+
+.xiao a {
+    text-decoration: none;
+    color: white;
+}
+.xiao a:hover {
+    color: red;
+}
+.xiao {
+    font-size: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.xiao>div {
+    line-height: 50px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.xiao ul {
+    float: left;
+}
+.xiao>div:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.xiao>div>ul>li {
+    float: left;
+    padding-left: 11px;
+}
+.xiao ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.xiao ul:nth-of-type(2) {
+    padding-left: 488px;
+}
+
+.two a {
+    text-decoration: none;
+    color: #474643;
+}
+.two>div {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.two>div>ul {
+    display: flex;
+    justify-content: space-between;
+}
+.two>div>ul>li {
+    line-height: 44px;
+    float: left;
+}
+.two>div>ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.two>div>ul>li>ul>li {
+    float: left;
+    padding-left: 10px;
+}
+.two>div>ul>li>ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+
+.two>div>ul>li:nth-of-type(4) {
+//  padding: 10px ;
+    border: 1px solid #CCCCCC;
+    padding-right: 10px;
+}
+
+.san>div {
+    font-size: 11px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.san>div>ul {
+    color: white;
+    width: 234px;
+    height: 460px;
+//padding-top: 20px;
+//padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+    background-color: black;
+}
+.san>div>ul>li {
+    line-height: 45px;
+}
+.san>div>ul>li div {
+    float: left;
+    
+}
+.san>div>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+.san>div>ul>li>a:after {
+    display: flex;
+    clear: both;
+    content: "" ;
+}
+.san>div>ul {
+    float: left;
+}
+.san>div:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+
+.san img {
+    width: 926px;
+    height: 460px;
+}
+.you {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+
+
+
+.si>div>ul>li {
+    font-size: 11px;
+    float: left;
+}
+.si>div>ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.one1 {
+    margin-left: 55px;
+}
+
+.si {
+    width: 100%;
+}
+.si>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+.si>div>ul>li>div>p>img {
+    width: 50%;
+}
+.si>div>ul>li>div>p {
+    text-align: center;
+    float: left;
+    padding-left: 30px;
+}
+.si>div>ul>li>div>p>a {
+    padding: 6px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.si>div>ul>li>div {
+    width: 275px;
+    background-color: #CCCCCC;
+}
+.si>div>ul>li {
+    height: 138px;
+}
+.si>div>ul>li:hover {
+    box-shadow: 10px 5px 5px #CCCCCC;
+}
+.si>div>ul>li>div:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.wu h2 {
+    padding: 20px;
+}
+.wu {
+    width: 100%;
+    font-size: 10px;
+    margin-bottom: 2rem;
+}
+.wu>div>h3 {
+    padding: 20px;
+}
+.wu>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+.wu>div>ul>li>img {
+    padding: 20px;
+}
+.wu>div>ul {
+    display: flex;
+    justify-content: space-between;
+}
+.wu>div>ul>li {
+    background-color: #ccc;
+    text-align: center;
+   
+}
+.wu>div>ul>li>p {
+    padding: 10px;
+}
+.wu>div>ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.wu>div>ul>li:hover {
+    box-shadow: 10px 5px 5px #CCCCCC;
+}
+.li1 {
+     float: left;
+    border-top: 1px solid red;
+}
+.li2 {
+    border-top: 1px solid blue;
+}
+.li3 {
+    border-top: 1px solid purple;
+}
+.li4 {
+    border-top: 1px solid yellow;
+}
+.li5 {
+    float: right;
+    border-top: 1px solid cyan;
+}
+
+.liu {
+    font-size: 10px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.liu>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+.liu>div>div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+}
+.liu>div>div:nth-of-type(1)>div>p {
+    float: left;
+    padding: 10px;
+}
+.liu>div>div {
+    padding-top: 3rem;
+}
+.ppp>img {
+    width: 300px;
+}
+.liu>div>div:nth-of-type(1)>div:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.liu>div>div:nth-of-type(2)>p {
+    float: left;
+}
+.liu>div>div:nth-of-type(2):after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.ppp2>img {
+    padding-top: 76px;
+    padding-bottom: 34px;
+    width: 153px;
+    height: 91px;
+}
+.liu li {
+    text-align: center;
+    background-color: white;
+    float: left;
+    padding-bottom: 2rem;
+}
+.liu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.liu ul:nth-of-type(2) {
+    margin-top: 1rem;
+}
+.liu ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.ppp2>p,.ppp2>s {
+    padding: 10px;
+}
+.ppp2>div {
+    margin-top: 5rem;
+}
+#wrap {
+    padding-bottom: 40px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.qi {
+    margin-top: 3rem;
+    font-size: 10px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.qi>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.qi>div>div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+}
+.qi>div>div>div>p {
+     float: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding: 10px;
+}
+.qi>div>div>h2 {
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.qi>div>ul>li {
+    background-color: white;
+    float: left;
+    width: 234px;
+    height: 300px;
+    padding-left: 6px;
+    text-align: center;
+}
+.qi>div>ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.img11>img {
+    height: 300px;
+    width: 234px;
+}
+.img1>img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:114px;
+    height:114px;
+}
+.img1>p {
+    padding-top: 10px;
+}
+.ba {
+    font-size: 10px;
+    width: 100%;
+}
+.ba h2 {
+    padding: 30px;
+}
+.ba>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+.ba>div>ul>li>img {
+    width:296px ;
+    height:220px ;
+}
+.ba>div>ul>li>p {
+    padding: 10px;
+    width: 270px;
+}
+.ba>div>ul>li {
+    background-color: white;
+    float: left;
+    padding-left: 4px;
+}
+
+
+
+.ba>div>ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+
+
+.shi {
+    font-size: 10px;
+    width: 100%;
+}
+.shi h2 {
+    padding: 30px;
+}
+.shi>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+.shi li {
+    width: 276px;
+    height: 460px;
+    float: left;
+    text-align: center;
+    background-color: white;
+}
+.shi ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.shi li >div {
+    padding: 10px;
+}
+.shi li {
+    padding-left:24px ;
+}
+.shi img {
+    padding: 30px;
+}
+.last {
+    width: 100%;
+}
+.last>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+.last>div>div>h2 {
+    float: left;
+}
+.last>div>div {
+    padding: 30px;
+}
+.last>div>div>div {
+    text-align: right;
+}
+.last>div>div:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.last li {
+    float: left;
+    text-align: center;
+     background-color: white;
+     padding-left: 20px;
+}
+.last>img {
+    padding: 20px;
+}
+.last li>div {
+    padding: 20px;
+}
+.last ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+footer {
+//  font-size: 10px;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+footer>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+footer>div>ul>li {
+    float: left;
+    padding-left: 81px;
+}
+footer>div>ul {
+    padding: 20px;
+}
+footer>div>ul:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+hr {
+    margin-bottom: 20px;
+}
+ol {
+    list-style: none;
+}
+footer ol>li {
+    float: left;
+    padding-left: 40px;
+    
+}
+footer ol ul>li {
+    padding: 10px;
+}
+footer ol:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.zui {
+    font-size: 10px;
+    width: 100%;
+    background-color: #ccc;
+}
+.zui>div {
+    padding-top: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.zui>div>div>img {
+    width: 100px;
+}
+.zui>div>div {
+    float: left;
+}
+.zui>div:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.zui li>div>div {
+    float: left;
+    
+}
+.zui ul {
+    float: left;
+    
+}
+.zui>div {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+.zui li>div:after {
+    display: block;
+    clear: both;
+    content: "" ;
+}
+center {
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.one {
+    margin-left: 30px;
+}
+.logo>img {
+    width: 400px;
+}
+.mis {
+    width: 700px;
+}
